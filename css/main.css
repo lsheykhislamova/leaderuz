@@ -1,0 +1,207 @@
+body, html {
+	width: 100%;
+	height: 100%;
+    font-family: "BebasNeueRegular";
+	letter-spacing: 0.5px;
+	color: #000 !important;
+	cursor: default;
+}
+
+.padding{
+	padding-bottom: 2em;
+}
+.navbar{
+	background-color: #22242A; /*#f15400*/
+    position: fixed;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    box-shadow: 1px 2px 3px #888;
+    
+}
+.navbar-brand {
+    float: left !important;
+}
+.navbar>.container-fluid {
+    display: block !important;
+}
+.logo{
+  color: #fff !important;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+  margin: 0 0 0 25px;
+}
+.logo span{
+  color: #19B3D3;
+}
+
+/*#logo{	
+    margin-right: 11rem;
+    margin-top: 5px;
+   height: 42px;
+   width: 120px;
+	margin-top: 7px;
+	padding: 0 0 3 16px;
+}*/
+
+.navbar-nav li{
+	padding-right: 20px;
+}
+.nav-link {
+	font-size: 1.1em !important;
+	text-decoration: none;
+	color: #fff !important;
+	
+}
+/*!important более важный чем в bootstrap */
+
+
+.alert{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2em;
+}
+.alert hr{
+	border-top: 2px solid #f0f0f0;
+	width: 95%;
+	margin-top: 0.3em;
+	margin-bottom: 1em;
+}
+.img_icon{
+	height: 150px;
+	border-radius: 100px;
+	margin-bottom: 10px;
+}
+/*.fa-code{color: #e54d26;}
+.fa-bold{color: #563d7c;}
+.fa-css3{color: #2163af;}*/
+
+.fa-code, .fa-bold, .fa-css3{
+	font-size: 4em;
+	margin: 1em;
+	}
+	#fixed{
+	height: 500px;
+    border-top: 4px solid #F0F0F0F0;
+    background: url(../images/wallpaper.jpg);
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+   
+	}
+#gifsbutton{
+	margin-top: 1rem;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+
+}
+#gifs img{
+	max-width: 100%;
+	max-height: 200px;
+	margin-bottom: 20px;
+}
+@media (max-width: 750px){
+	.display-4{
+		font-size: 1.5em;
+	}
+}
+.social a{
+	font-size: 2em;
+	padding: 20px 20px 0 20px;
+}
+.fa-facebook{color: #fff;}
+.fa-instagram{color: #fff;}
+.fa-twitter{color: #fff;}
+.fa-youtube{color: #fff;}
+.fa-google-plus{color: #fff;}
+.fa-facebook:hover, .fa-telegram:hover, .fa-instagram:hover, 
+.fa-twitter:hover, .fa-youtube:hover,
+.fa-google-plus:hover{
+	color:#000;
+}
+footer{
+	background-color: rgb(34, 36, 42);
+    padding-top: 15px;
+    border-top: 1px solid black;
+    color: #fbfbfb;
+}
+.social-padding{
+	padding-bottom: 0;
+}
+.card-img-top{
+	height: 232px;
+}
+#bubble {
+  /*font-size: 25px;*/
+  font-family: 'BebasNeueRegular';
+  /*color: #2d509b;*/
+  /*font-weight: bold;*/
+  width: 27%;
+  margin: auto;
+  color: #fff;
+  font-size: 28px;
+  letter-spacing: .5px;
+  height: 24px;
+}
+@media only screen and (max-width : 992px) {
+	#bubble {
+    /* font-size: 25px; */
+    font-family: 'BebasNeueRegular';
+    /* color: #2d509b; */
+    /* font-weight: bold; */
+    width: 25%;
+    margin: auto;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: .5px;
+    /*height: 24px;
+*/}
+	.block {
+    height: 91px;
+}
+	.logo{
+	
+    border-radius: 100px;
+	}
+	.navbar-brand img{
+	width: 80px;
+}
+	.header-text{
+		font-size: 15px;
+	}
+	.admin{
+	display: inline-block;
+    height: 58%;
+    background-color: #000000;
+    margin-top: 17px;
+    color: #aeaeae;
+    margin-left: 5rem;
+	}
+	.top_line{
+		height: 91px;
+	}
+	header{
+		height: 435px;
+	}
+	.admin p {
+		font-size: 12px;
+	}
+	.carousel-caption {
+    position: absolute;
+    top: 14%;
+    transform: translateY(-80%);
+    text-shadow: 1px 1px 1px 10px red;
+    border: 1px solid black;
+    background-color: black;
+    opacity: 0.8;
+    color: #F8F8FF;
+    height: 10%;
+	}
+}
+.copyright{
+	font-size: 14px;
+	padding-top: 20px; 
+	font-family: Times New Roman; 
+	
+}

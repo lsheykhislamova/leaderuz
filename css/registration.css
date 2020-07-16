@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "BebasNeueRegular"; 
+	
+}
+.reg-main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin-top: 9%;
+}
+.reg-main_1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 25px;
+	
+}
+.form{
+	/*margin-top: 200px !important;*/
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+
+}
+.in-registr{
+	margin: 0px 0 25px 0 !important;
+    padding: 10px !important;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+.in-button{
+	padding: 10px;
+	background: #e3e3e3;
+	border: unset;
+	cursor: pointer;
+}
+.in-link{
+	/*color: #7c9ab7;*/
+	font-weight: bold;
+	text-decoration: none;
+}
+.form p{
+	margin: 10px 0;
+}
+.msg{
+	padding: 0;
+	margin: 0;
+	color: red;
+}
+.none{
+	display: none;
+}
+.error{
+	border-bottom: 2px solid #ff4332;
+}

@@ -1,0 +1,81 @@
+/*media querias*/
+/*Смартфоны (Портрет и ландшафтный)*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : portrait){
+.nav-outer-container {
+    padding: 1.5em;
+    background-color: #fff;
+    width: 50%;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    transition: 0.85s;
+    left: -100%;
+    overflow-y: scroll;
+    top: 60px;
+}
+.label{
+  display: inherit;
+}
+
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation : landscape){
+  .nav-outer-container {
+    padding:  1.5em;
+    background-color: #fff;
+    width: 40%;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    top: 17%;
+    bottom: 0;
+    overflow-y: scroll;
+    transition: 0.85s;
+    left: -100%;
+}
+}
+
+
+/*iPads (Ландшафтный)*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+  .nav-outer-container {
+    padding: 1.5em;
+    background-color: #fff;
+    width: 25%;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    overflow-y: scroll;
+    transition: 0.85s;
+    left: -100%;   
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+  .nav-outer-container {
+    padding: 1.5em;
+    background-color: #fff;
+    width: 35%;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    top: 9%;
+    bottom: 0;
+    overflow-y: scroll;
+    transition: 0.85s;
+    left: -100%;
+   
+}
+}
+/*Настольные компьютеры и ноутбуки*/
+
+/*Большие экраны*/
+@media only screen and (min-width : 1824px){
+  .nav-outer-container {
+    padding: 1em 1.5em;
+    background-color: #fff;
+    width: 14%;
+    border-right: 1px solid #ccc;
+    position: fixed;
+    top: 9%;
+    bottom: 0;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
